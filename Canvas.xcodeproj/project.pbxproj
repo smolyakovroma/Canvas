@@ -12,6 +12,8 @@
 		1246B963218CCF180065CD4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1246B961218CCF180065CD4C /* Main.storyboard */; };
 		1246B965218CCF190065CD4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1246B964218CCF190065CD4C /* Assets.xcassets */; };
 		1246B968218CCF190065CD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1246B966218CCF190065CD4C /* LaunchScreen.storyboard */; };
+		1246B970218CCF600065CD4C /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246B96F218CCF600065CD4C /* CanvasView.swift */; };
+		1246B972218CD6730065CD4C /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1246B971218CD6730065CD4C /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1246B964218CCF190065CD4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1246B967218CCF190065CD4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1246B969218CCF190065CD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1246B96F218CCF600065CD4C /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		1246B971218CD6730065CD4C /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				1246B95D218CCF180065CD4C /* AppDelegate.swift */,
 				1246B95F218CCF180065CD4C /* ViewController.swift */,
+				1246B96F218CCF600065CD4C /* CanvasView.swift */,
+				1246B971218CD6730065CD4C /* MNIST.mlmodel */,
 				1246B961218CCF180065CD4C /* Main.storyboard */,
 				1246B964218CCF190065CD4C /* Assets.xcassets */,
 				1246B966218CCF190065CD4C /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1246B972218CD6730065CD4C /* MNIST.mlmodel in Sources */,
 				1246B960218CCF180065CD4C /* ViewController.swift in Sources */,
 				1246B95E218CCF180065CD4C /* AppDelegate.swift in Sources */,
+				1246B970218CCF600065CD4C /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
